@@ -9,3 +9,56 @@
 body {
     font-family: "B Yekan", tahoma, Arial;
 }
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* header */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    padding-right: 50px;
+}
+
+.menu-item {
+    margin: 0 20px;
+    color: #999;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left .header-register {
+    color: rgb(52, 170, 243);
+    margin-left: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.header-left .header-login {
+    color: #fff;
+    background-color: rgb(3, 114, 184);
+    padding: 5px 17px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
