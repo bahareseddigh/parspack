@@ -62,3 +62,42 @@ body {
     cursor: pointer;
     font-weight: bold;
 }
+
+
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header-bottom-right {
+    width: 40%;
+    padding-right: 80px;
+}
+
+.header-bottom-right h1 {
+    color: rgb(3, 114, 184);
+}
+
+.header-bottom-right h4 {
+    color: rgb(6, 140, 224);
+    margin: 10px 0;
+}
+
+.header-bottom-right p {
+    text-align: justify;
+    font-size: 17px;
+    color: #605f5f;
+}
+
+.header-bottom-left {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-bottom-left img {
+    width: 80%;
+}
