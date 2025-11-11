@@ -137,10 +137,54 @@ body {
     color: #fff;
     padding: 5px 25px;
     border-radius: 25px;
-    top: -20px;
+    top: -25px;
 }
 
 .child-boxes p {
     padding: 35px 20px;
     text-align: justify;
+}
+
+
+
+
+
+/* host feature */
+.host-feature {
+    margin: 100px 0;
+}
+
+.feature {
+    display: flex;
+    margin-top: 170px;
+}
+
+.feature-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.feature-right h1 {
+    color: rgb(3, 114, 184);
+    margin: 10px 0;
+}
+
+.feature-right p {
+    text-align: justify;
+    font-size: 17px;
+    color: #605f5f;
+}
+
+.feature-left {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-left img {
+    width: 75%;
 }
