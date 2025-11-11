@@ -188,3 +188,33 @@ body {
 .feature-left img {
     width: 75%;
 }
+
+
+
+
+
+
+/* footer */
+.footer {
+    text-align: center;
+    width: 100%;
+    border-top: 2px solid #cfcfcf;
+    padding: 30px 0;
+    color: #999;
+}
+
+.footer .fa-brands {
+    font-size: 25px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: color 0.25s ease;
+}
+
+.footer .fa-brands:hover {
+    color: rgb(3, 114, 184);
+}
+
+.footer p {
+    padding-top: 10px;
+    font-size: 14px;
+}
