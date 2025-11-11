@@ -68,7 +68,7 @@ body {
 .header-bottom {
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .header-bottom-right {
@@ -100,4 +100,47 @@ body {
 
 .header-bottom-left img {
     width: 80%;
+}
+
+
+
+
+
+/* host section */
+.boxes-title {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.parent-boxes {
+    height: 600px;
+    background: linear-gradient(to bottom, #F3FAFF, #E0F2FF);
+    display: flex;
+    margin: 30px 0;
+}
+
+.child-boxes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 400px;
+    margin: 100px 20px;
+    border-radius: 15px;
+    border: 2px dotted #999;
+}
+
+.child-boxes h2 {
+    position: absolute;
+    background-color: rgb(6, 140, 224);
+    color: #fff;
+    padding: 5px 25px;
+    border-radius: 25px;
+    top: -20px;
+}
+
+.child-boxes p {
+    padding: 35px 20px;
+    text-align: justify;
 }
